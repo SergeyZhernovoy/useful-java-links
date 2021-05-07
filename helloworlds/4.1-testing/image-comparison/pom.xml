@@ -9,28 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mockito</artifactId>
+    <artifactId>image-comparison</artifactId>
 
-    <description>This example to using Mockito for testing code.</description>
+    <description>This example to using Image-Comparison for testing code.</description>
 
     <properties>
-        <java.version>1.7</java.version>
-        <junit.version>4.13.1</junit.version>
         <maven.compiler.version>3.3</maven.compiler.version>
-        <mockito.version>1.9.5</mockito.version>
+        <image.comparison.version>3.1.1</image.comparison.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>${mockito.version}</version>
+            <groupId>com.github.romankh3</groupId>
+            <artifactId>image-comparison</artifactId>
+            <version>${image.comparison.version}</version>
         </dependency>
     </dependencies>
 
